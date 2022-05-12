@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <style>
+  .button {
+      background-color:#0a0a23;
+      color: #fff;
+      border:none;
+      border-radius:10px;
+      min-height:30px;
+      min-width: 120px;
+    }
+  </style>
+  <center>
+
+
+  <h1>BMI Calculator</h1>
+  <h4>Insert your <u>weight</u> and <u>height</u> and press the button to see the changes</h4>
+  <form action="/bmiCalculator" method="post">
+    <input type="text"  name="weight" placeholder="Insert your weight:" autocomplete="off" autofocus required>
+    <input type="text" name="height" placeholder="Insert your height:" autocomplete="off" required>
+    <button class = "button" style = "background-color: lightgreen;" type="submit" name="submit"><strong>Calculate BMI</strong></button>
+  </center>
+
+  </form>
+
+
+</body>
+
+
+</html>
